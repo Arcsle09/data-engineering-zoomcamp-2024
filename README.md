@@ -10,4 +10,4 @@ Week-1: 01_docker_terraform:
         Additional Contribution:
         - Ehnaced the python script to handle multiple data sources with different file formats (gzip and csv) and read the source in csv format.
         - Handling the column data types conversion where ever applicable.
-        - Developed the shell script to automate the docker commands.
+        - Developed the shell script to automate the docker commands for all data ingestion activities.
