@@ -1,4 +1,0 @@
-**/*/ny_taxi_postgres_data
-.ipynb_checkpoints/
-*.csv
-01_docker_terraform/1_terraform_gcp/terraform_keys.json
