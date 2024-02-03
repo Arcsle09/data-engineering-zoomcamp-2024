@@ -8,8 +8,6 @@ network_id=$(docker network ls -f NAME="2_docker_sql_default" --format "{{.ID}}"
 
 echo "network id for database host is $network_id"
 
-echo "Ingestion started.."
-
 docker build -t $container_name:final_version .
 
 docker run -it \
@@ -36,5 +34,3 @@ docker run -it \
     --table-name=taxi_zone_lookup \
     --url="https://d37ci6vzurychx.cloudfront.net/misc/taxi+_zone_lookup.csv"\
     --filename="taxi_zone_lookup.csv"
-
-echo "Ingestion Ended..."
