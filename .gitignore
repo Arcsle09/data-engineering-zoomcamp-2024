@@ -4,4 +4,4 @@
 01_docker_terraform/1_terraform_gcp/terraform_keys.json
 01_docker_terraform/1_terraform_gcp/.terraform/*
 01_docker_terraform/1_terraform_gcp/.terraform*
-01_docker_terraform/1_terraform_gcp/terraform.fstate
+01_docker_terraform/1_terraform_gcp/terraform.tfstate
