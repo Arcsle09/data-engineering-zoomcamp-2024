@@ -5,3 +5,4 @@
 01_docker_terraform/1_terraform_gcp/.terraform/*
 01_docker_terraform/1_terraform_gcp/.terraform*
 01_docker_terraform/1_terraform_gcp/terraform.tfstate
+01_docker_terraform/1_terraform_gcp/terraform.tfstate.backup
